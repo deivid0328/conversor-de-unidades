@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de divisas</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+    <section>
+        <div class="icon">
+            <img src="https://img.icons8.com/color/96/000000/euro-exchange.png" alt="icono divisas"/>
+        </div>
+        <div>
+            <input type="number" name="dinero" id="dinero" placeholder="Cantidad de dinero"/>
+        </div>
+        <div>
+            <label>Convertir De:</label>
+            <select id="monedainicial">
+              
+            </select>
+            <label>A:</label>
+            <select id="monedafinal">
+                
+            </select>
+            <button onclick="convertir();">Convertir</button>
+        </div>
+        <div id="alert"> 
+        </div>
+        <div  id="resutlado">
+            
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
